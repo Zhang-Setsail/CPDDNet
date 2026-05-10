@@ -1,0 +1,42 @@
+# macOS / Windows metadata
+.DS_Store
+._*
+.AppleDouble
+.LSOverride
+Icon?
+Thumbs.db
+ehthumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+tmp/
+temp/
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
