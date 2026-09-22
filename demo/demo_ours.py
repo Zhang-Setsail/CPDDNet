@@ -10,9 +10,9 @@ label_list = [['data/FinalDataHigh/label/Scene36_0.png', 'data/FinalDataHigh/lab
               ['data/FinalDataHigh/label/Scene39_0.png', 'data/FinalDataHigh/label/Scene39_45.png', 'data/FinalDataHigh/label/Scene39_90.png', 'data/FinalDataHigh/label/Scene39_135.png'],
               ['data/FinalDataHigh/label/Scene40_0.png', 'data/FinalDataHigh/label/Scene40_45.png', 'data/FinalDataHigh/label/Scene40_90.png', 'data/FinalDataHigh/label/Scene40_135.png']]
 
-pretrained_dn_model_path = 'pretrainedModel/Dn_model_raw2raw.pth'
-pretrained_dm_color_model_path = 'pretrainedModel/fusion_tcpd_color_unet_model.pth'
-pretrained_dm_polar_model_path = 'pretrainedModel/finetune_tcpd_polar_unet_model.pth'
+pretrained_dn_model_path = '../pretrainedModel/Dn_model_raw2raw.pth'
+pretrained_dm_color_model_path = '../pretrainedModel/fusion_tcpd_color_unet_model.pth'
+pretrained_dm_polar_model_path = '../pretrainedModel/finetune_tcpd_polar_unet_model.pth'
 
 save_dir = 'results'
 

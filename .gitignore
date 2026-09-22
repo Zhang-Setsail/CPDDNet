@@ -40,3 +40,10 @@ temp/
 .vscode/
 *.swp
 *.swo
+
+# Local datasets, downloaded weights, and generated training checkpoints
+dataset/*
+!dataset/README.md
+pretrainedModel/*.pth
+train/checkpoints/
+demo/results/
